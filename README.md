@@ -2,20 +2,6 @@
 
 Fui desafiado para construir a lógica que calcula o valor de uma compra de acordo com o cardápio, regras e descontos de uma Lanchonete.
 
-## Sobre o projeto
-
-Este é um programa de fluxo de caixa de uma lanchonete em JavaScript. A classe "CaixaDaLanchonete" simula um sistema de caixa para uma lanchonete, onde os clientes podem fazer pedidos de itens do cardápio e calcular o valor total da compra com base nos itens escolhidos e na forma de pagamento. 
-
-## Funcionalidades 
-
-Definir Itens e Pagamentos: Ele cria uma lista de itens disponíveis com suas descrições e preços, além de listar as formas de pagamento aceitas (débito, crédito, dinheiro).
-
-Validar o Pedido: Ele verifica se o pedido feito pelo cliente é válido. Isso inclui verificar se os itens pedidos, quantidades e se os combos estão corretos.
-
-Calcular o Valor: Calcula o valor total do pedido com base nos itens selecionados e na forma de pagamento escolhida. Ele aplica descontos para pagamentos em dinheiro e acréscimos para pagamentos em crédito.
-
-Formatar Moeda: Formata para a moeda brasileira.
-
 ### CARDÁPIO
 
   | codigo    | descrição                   | valor   |
@@ -48,3 +34,17 @@ Atualmente a Lanchonete aceita as seguintes formas de pagamento:
 - Se a quantidade de itens for zero, apresentar mensagem "Quantidade inválida!".
 - Se o código do item não existir, apresentar mensagem "Item inválido!"
 - Se a forma de pagamento não existir, apresentar mensagem "Forma de pagamento inválida!"
+
+  ## Sobre o projeto
+
+Este é um programa de fluxo de caixa de uma lanchonete em JavaScript. A classe "CaixaDaLanchonete" simula um sistema de caixa para uma lanchonete, onde os clientes podem fazer pedidos de itens do cardápio e calcular o valor total da compra com base nos itens escolhidos e na forma de pagamento. 
+
+## Funcionalidades 
+
+Definir Itens e Pagamentos: Ele cria uma lista de itens disponíveis com suas descrições e preços, além de listar as formas de pagamento aceitas (débito, crédito, dinheiro).
+
+Validar o Pedido: Ele verifica se o pedido feito pelo cliente é válido. Isso inclui verificar se os itens pedidos, quantidades e se os combos estão corretos.
+
+Calcular o Valor: Calcula o valor total do pedido com base nos itens selecionados e na forma de pagamento escolhida. Ele aplica descontos para pagamentos em dinheiro e acréscimos para pagamentos em crédito.
+
+Formatar Moeda: Formata para a moeda brasileira.
