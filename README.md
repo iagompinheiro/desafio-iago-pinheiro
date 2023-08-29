@@ -48,3 +48,12 @@ Validar o Pedido: Ele verifica se o pedido feito pelo cliente é válido. Isso i
 Calcular o Valor: Calcula o valor total do pedido com base nos itens selecionados e na forma de pagamento escolhida. Ele aplica descontos para pagamentos em dinheiro e acréscimos para pagamentos em crédito.
 
 Formatar Moeda: Formata para a moeda brasileira.
+
+## Tecnologias utilizadas 
+• JavaScript
+• NodeJs
+
+## Autor
+Iago Pinheiro 
+
+https://www.linkedin.com/in/iago-pinheiro-5a7979258
